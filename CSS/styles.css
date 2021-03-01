@@ -1,0 +1,25 @@
+body {
+  background-image: url("https://media.istockphoto.com/vectors/hand-drawn-gray-contours-of-abstract-flowers-and-leaves-on-white-vector-id1153150274?b=1&k=6&m=1153150274&s=612x612&w=0&h=H91z3LJf9sKF8giStDLmszb_EMp2quZlOJRHNkn65SU=");
+  background-attachment: fixed;
+  background-color: #cccccc;
+ }
+
+h1  {
+ color: white ; background-color: rgb(145, 145, 145) ; padding: 15px; font-weight: bolder; text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.centertxt {text-align: center;}
+
+.img {
+  float: left; padding-right: 30px;
+}
+
+main { background-color: white;
+
+}
