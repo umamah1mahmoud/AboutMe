@@ -1,15 +1,15 @@
-'use strict'
+'use strict';
 
 let userName=prompt('Hello there! What is your name?');
 alert('Hello ' + userName +'! Welcome in my little game');
 
-let yes= 'Yes'.toLowerCase();
-let y= 'Y'.toLowerCase();
-let no= 'No'.toLowerCase();
-let n= 'N'.toLowerCase();
+let yes= 'Yes';
+let y= 'Y';
+let no= 'No';
+let n= 'N';
 let i=0;
 
-let myAge=prompt('Am I 30 years old?');
+let myAge=prompt('Am I 30 years old?'.toLowerCase() );
 if (myAge==yes||myAge==y){
     alert('Sorry, wrong answer.');
     
@@ -20,7 +20,7 @@ if (myAge==no|| myAge==n){
    
 }
 
-let myCountry=prompt('Do I live in Jordan?');
+let myCountry=prompt('Do I live in Jordan?'.toLowerCase() );
 if (myCountry==no||myCountry==n){
   alert('Sorry, wrong answer.');
   
@@ -31,7 +31,7 @@ if (myCountry==yes|| myCountry==y){
  
 }
 
-let myColor=prompt('Is green my favorite color?');
+let myColor=prompt('Is green my favorite color?'.toLowerCase() );
 if (myColor==yes||myColor==y){
   alert('Sorry, wrong answer.');
   
@@ -43,7 +43,7 @@ if (myColor==no|| myColor==n){
  
 }
 
-let myHobby=prompt('Do I enjoy watching movies?');
+let myHobby=prompt('Do I enjoy watching movies?'.toLowerCase() );
 if (myHobby==no||myHobby==n){
   alert('Sorry, wrong answer.');
   
@@ -54,7 +54,7 @@ if (myHobby==yes|| myHobby==y){
  
 }
 
-let myFav=prompt('Is horror my favorite movies genre?');
+let myFav=prompt('Is horror my favorite movies genre?'.toLowerCase() );
 if (myColor==yes||myColor==y){
   alert('That was wrong');
   
