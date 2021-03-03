@@ -3,15 +3,15 @@
 let userName=prompt('Hello there! What is your name?');
 alert('Hello ' + userName +'! Welcome in my little game');
 
-let yes= 'Yes'
-let y= 'Y'
-let no= 'No'
-let n= 'N'
+let yes= 'yes';
+let y= 'y';
+let no= 'no';
+let n= 'n';
 let i=0;
 
 //<<<<<<<<<<<<<<<<<<< Q1 >>>>>>>>>>>>>>>>>>>>>>>>
 
-let myAge=prompt('Am I 30 years old?'.toLowerCase());
+let myAge=prompt('Am I 30 years old?').toLowerCase();
 if (myAge==yes||myAge==y){
     alert('Sorry, wrong answer.');
     
@@ -24,7 +24,7 @@ if (myAge==no|| myAge==n){
 
 //<<<<<<<<<<<<<<<<<<< Q2 >>>>>>>>>>>>>>>>>>>>>>>>
 
-let myCountry=prompt('Do I live in Jordan?'.toLowerCase());
+let myCountry=prompt('Do I live in Jordan?').toLowerCase();
 if (myCountry==no||myCountry==n){
   alert('Sorry, wrong answer.');
   
@@ -37,7 +37,7 @@ if (myCountry==yes|| myCountry==y){
 
 //<<<<<<<<<<<<<<<<<<< Q3 >>>>>>>>>>>>>>>>>>>>>>>>
 
-let myColor=prompt('Is green my favorite color?'.toLowerCase());
+let myColor=prompt('Is green my favorite color?').toLowerCase();
 if (myColor==yes||myColor==y){
   alert('Sorry, wrong answer.');
   
@@ -51,7 +51,7 @@ if (myColor==no|| myColor==n){
 
 //<<<<<<<<<<<<<<<<<<< Q4 >>>>>>>>>>>>>>>>>>>>>>>>
 
-let myHobby=prompt('Do I enjoy watching movies?'.toLowerCase());
+let myHobby=prompt('Do I enjoy watching movies?').toLowerCase();
 if (myHobby==no||myHobby==n){
   alert('Sorry, wrong answer.');
   
@@ -64,7 +64,7 @@ if (myHobby==yes|| myHobby==y){
 
 //<<<<<<<<<<<<<<<<<<< Q5 >>>>>>>>>>>>>>>>>>>>>>>>
 
-let myFav=prompt('Is horror my favorite movies genre?'.toLowerCase());
+let myFav=prompt('Is horror my favorite movies genre?').toLowerCase();
 if (myColor==yes||myColor==y){
   alert('That was wrong');
   
@@ -99,8 +99,8 @@ alert('the correct answer is 50')
 
 //<<<<<<<<<<<<<<<<<<< Q7 >>>>>>>>>>>>>>>>>>>>>>>>
 let attempts=5;
-let cities=['Berlin', 'Copenhagen', 'Rome', 'Madrid', 'Amsterdam']
-let userCity=prompt('Can you guess my "to visit" list for European capital cities?')
+let cities=['berlin', 'copenhagen', 'rome', 'madrid', 'amsterdam']
+let userCity=prompt('Can you guess my "to visit" list for European capital cities?').toLowerCase
 do {
   attempts-=1;  
   
