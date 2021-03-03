@@ -98,26 +98,26 @@ alert('the correct answer is 50')
 
 
 //<<<<<<<<<<<<<<<<<<< Q7 >>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
 let attempts=5;
-let cities=['berlin', 'copenhagen', 'rome', 'madrid', 'amsterdam']
-let userCity=prompt('Can you guess my "to visit" list for European capital cities?').toLowerCase
+let cities=['berlin', 'copenhagen', 'rome']
+let userCity=prompt('Can you guess one of my "to visit" list for European capital cities?').toLowerCase();
 do {
   attempts-=1;  
   
-  if(cities.includes(userCity)){
+  if(userCity===cities[0] || userCity===cities[1] || userCity===cities[2]) {
     alert(' You are good at this!');
     i=i+1; 
     break;
-  } else {
-    userCity=prompt('Wrong! try again');
+  } else if (userCity!=cities[0] && userCity!=cities[1] && userCity!=cities[2]) {
+    userCity=prompt('Wrong answer... Hint! The official language is Danish');
   
     
   }
 }while (attempts>0);
+alert ('The right answers are Berlin, Copenhagen and Rome');
 
-for(let c=0; c<cities.length; c++) {
-  alert (cities[c]);
-}
-
-alert('Your total is ' +i+ ' out of 7');
+alert('Your total score is ' +i+ ' out of 7');
 alert('I hope you enjoyed it ' +userName+ ', and I hope you got most of them right.');
