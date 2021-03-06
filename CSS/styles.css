@@ -2,24 +2,44 @@ body {
   background-image: url("https://media.istockphoto.com/vectors/hand-drawn-gray-contours-of-abstract-flowers-and-leaves-on-white-vector-id1153150274?b=1&k=6&m=1153150274&s=612x612&w=0&h=H91z3LJf9sKF8giStDLmszb_EMp2quZlOJRHNkn65SU=");
   background-attachment: fixed;
   background-color: #cccccc;
- }
+  font-family: 'Courier New', Courier, monospace;
+}
 
-h1  {
- color: white ; background-color: rgb(145, 145, 145) ; padding: 15px; font-weight: bolder; text-align: center;
+h1 {
+  color: white ; background-color: rgba(128, 86, 52, 0.877) ; padding: 20px; font-weight: bolder; text-align: center; margin-left: 150px; margin-right: 150px; text-shadow: 2px 2px #5e5e5e;
+}
+
+footer {
+  color: rgba(255, 240, 221, 0.877); background-color: rgba(145, 114, 73, 0.877); margin-left: 150px; margin-right: 150px; margin-top: 30px; margin-bottom: 30px ; padding: 40px;
+}
+
+
+div { background-color: rgba(255, 249, 240, 0.877); margin-left: 150px; margin-right: 150px; margin-top: 30px; margin-bottom: 30px; padding: 40px;
+
+}
+
+p {
+  display: inline-block; 
+}
+
+
+h3 { text-shadow: 2px 2px #757575ad;
+
+}
+
+.img {position: relative
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 .centertxt {text-align: center;}
 
-.img {
-  float: left;  padding:130px
-}
 
-main { background-color: white;
 
-}
+
+
+
